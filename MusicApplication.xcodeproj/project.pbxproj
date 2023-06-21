@@ -14,6 +14,8 @@
 		242EEC532A40A74600FA1174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242EEC522A40A74600FA1174 /* Assets.xcassets */; };
 		242EEC562A40A74600FA1174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242EEC542A40A74600FA1174 /* LaunchScreen.storyboard */; };
 		242EEC5E2A40AABA00FA1174 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EEC5D2A40AABA00FA1174 /* SearchViewController.swift */; };
+		242EEC692A4210BD00FA1174 /* MusicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EEC672A4210BD00FA1174 /* MusicDetailViewController.swift */; };
+		242EEC6A2A4210BD00FA1174 /* MusicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 242EEC682A4210BD00FA1174 /* MusicDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		242EEC552A40A74600FA1174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		242EEC572A40A74600FA1174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		242EEC5D2A40AABA00FA1174 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		242EEC672A4210BD00FA1174 /* MusicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailViewController.swift; sourceTree = "<group>"; };
+		242EEC682A4210BD00FA1174 /* MusicDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				242EEC542A40A74600FA1174 /* LaunchScreen.storyboard */,
 				242EEC572A40A74600FA1174 /* Info.plist */,
 				242EEC5D2A40AABA00FA1174 /* SearchViewController.swift */,
+				242EEC672A4210BD00FA1174 /* MusicDetailViewController.swift */,
+				242EEC682A4210BD00FA1174 /* MusicDetailViewController.xib */,
 			);
 			path = MusicApplication;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				242EEC562A40A74600FA1174 /* LaunchScreen.storyboard in Resources */,
+				242EEC6A2A4210BD00FA1174 /* MusicDetailViewController.xib in Resources */,
 				242EEC532A40A74600FA1174 /* Assets.xcassets in Resources */,
 				242EEC512A40A74400FA1174 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				242EEC4A2A40A74400FA1174 /* AppDelegate.swift in Sources */,
 				242EEC5E2A40AABA00FA1174 /* SearchViewController.swift in Sources */,
 				242EEC4C2A40A74400FA1174 /* SceneDelegate.swift in Sources */,
+				242EEC692A4210BD00FA1174 /* MusicDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
